@@ -226,7 +226,7 @@ function track() {
 
   document.getElementById("result").innerHTML = "Loading...";
 
-  fetch("https://script.google.com/macros/s/AKfycbwWQb1dmtCfyAsshla0cuWKJ6qM1bBHr3SK1uQZd0uYDY4F_jzzTbU8ly7XuIFmfX3F/exec?query=" + query)
+  fetch("https://script.google.com/macros/s/AKfycbyBQTKAW7wxc5JiLiV0OO6klpeizNjhhgTu6heRrjv3XCa6fTX-YtH8bNrb-02ICk4/exec?query=" + query)
     .then(res => res.json())
     .then(data => {
       if (data.length === 0) {
